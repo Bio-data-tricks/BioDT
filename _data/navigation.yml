@@ -6,10 +6,9 @@
   url: "/blog/"
   side: left
   
-  - title: "Work"
+- title: "Work"
   url: "/work/"
   side: left
-
 
 - title: "Contact"
   url: "/contact/"
