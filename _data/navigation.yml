@@ -2,22 +2,14 @@
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
 - title: "Blog"
   url: "/blog/"
   side: left
   
-  - title: Work
+  - title: "Work"
   url: "/work/"
   side: left
 
-
-- title: "Search"
-  url: "/search/"
-  side: right
 
 - title: "Contact"
   url: "/contact/"
