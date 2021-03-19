@@ -6,25 +6,27 @@
 #
 layout: frontpage
 header:
-  title: Bio-DATA-Tricks
-  image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+ title: Bio-DATA-Tricks
+ image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+  
 widget1:
-  title: "My Work"
-  url: '/work/'
-  image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
-  text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopy - Data Preprocessing '
+ title: "My Work"
+ url: '/work/'
+ image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+ text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopy - Data Preprocessing '
   
 widget2:
-  title: "Blog"
-  url: '/blog/'
-  image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
-  text: 'Here you will find all kinds of subjects that may interest me.'
+ title: "Blog"
+ url: '/blog/'
+ image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+ text: 'Here you will find all kinds of subjects that may interest me.'
   
 widget3:
-  title: "Talk to me"
-  url: '/contact/'
-  image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
-  text: 'Want advice on how to get creative with your data? Or just want to say hello?'
+ title: "Talk to me"
+ url: '/contact/'
+ image: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+ text: 'Want advice on how to get creative with your data? Or just want to say hello?'
+
   
 permalink: /index.html
 ---
