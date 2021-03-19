@@ -1,0 +1,100 @@
+NACIS 2015 Mapping For Social Justice presentation notes
+========================================================
+
+To Do:
+
+- brief outline
+- points
+- recap
+
+- Hi, my name is Chris Henrick, I have a background in cartography and GIS, currently work as a web-developer, recently completed MFA Design Technology program at Parsons the New School For Design
+
+- Concept is to use NYC open data, technology and personal narratives to prevent the displacement of residents.
+
+PROBLEMS:
+
+- Disconnect between local government and residents
+
+- developers have too much power and don’t address community concerns
+
+- landlords get away with illegal practices like tenant harassment and lying to tenants about their rent regulation status
+
+- most tenants aren’t aware of their legal rights and are afraid of landlord retaliation
+
+PROJECTS:
+
+Bushwick Community Map redesign:
+
+  - improving technical parts for better performance
+
+  - improving the design & UX
+
+  - giving it context with narrative
+
+Am I Rent Stabilized
+
+  - educate tenants about rent regulation
+
+  - motivate them to take action
+
+  - discrepancy btwn rent stabilized apartments that are registered and not registered with the DHCR
+
+  - CartoDB Map
+
+
+Landscapes of Profit
+
+  - project for the NYC REIC 
+
+  - developed with Caroline Woolard, Dan Taeyoung, John Krauss, Ingrid Burrington
+
+  - Concept: Proposing a 1% tax on property “flips” (bought & sold within 2 years)
+
+  - rationale: developers benefit financially from community improvements & gentrification but typically don’t give anything back to the community or infrastructure
+
+  - currently in place in other cities such as Philadelphia
+
+  - money would be used to create permanently affordable work spaces or housing
+
+  - Method was to analyze property transfer data to determine an estimate of # of properties sold & how much profit
+
+  - aggregated by City Council to put pressure on Council Members
+
+  - Created a poster that was part of a show at the Storefront For Art and Architecture
+
+  - currently developing an interactive
+
+
+Tools For Housing Justice
+
+  - New Challenge grant to build an app to help NYC tenants rights organizations utilize open data
+
+  - Partnering with the Cooper Square Committee 
+
+  - App will integrate Building Indicators Project data with Civi-CRM
+
+  - Goal: Integrating qualitative & quantitative data to assist Cooper Square
+
+  - Goal: Case Study / User test to see if it can be affective for tenants-rights groups elsewhere
+
+
+NEXT STEPS
+  
+  - continuing to work on Landscapes of Profit interactive & Tools For Housing Justice
+
+  - data updates to Bushwick Community Map
+
+
+
+THANK YOU!
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
