@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  title: Nicolas GOFFIN
+  title: Bio-DATA-Tricks
   image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
 widget1:
   title: "My Work"
