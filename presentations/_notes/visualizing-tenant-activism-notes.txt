@@ -1,0 +1,35 @@
+# Visualizing Tenant Activism: A Workshop and Discussion presentation
+
+Urban Democracy Lab, NYU, 3/10/15
+
+## Overall
+x - use content from thesis studio one final presentation
+
+## Projects to cover: 
+- Bushwick Community Map redesign
+- Am I Rent Stabilized 
+- Accessing data / records on property transactions (MTOPP)
+
+## Goals:
+- making open government data more accessible and useful
+- using open data and current web technology to prompt civic action and awareness
+- being more creative with the data rather than straight forward analysis and visualization
+  - show process of mapping buildings that likely have rent stabilized units
+  - discrepancy in data b/c of voluntary registration power
+- balance the power imbalance btwn the real estate industry and tenants by improving access to information.
+
+## Precedents
+- Civic Tech 
+  - Code For America
+  - BetaNYC
+- Center for Urban Pedagogy
+
+## Next Steps
+- revamping Am I Rent Stabilized:
+  - include capability to show user’s nearest tenants rights group
+  - add clause about seeking legal help
+  - translate to other languages
+  - user testing with tenants rights groups
+
+- seeking grant money to create more projects around open data, housing justice, etc.
+- working with people in the civic tech community (BetaNYC) to create more tools

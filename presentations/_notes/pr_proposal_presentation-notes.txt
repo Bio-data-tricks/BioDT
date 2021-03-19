@@ -1,0 +1,92 @@
+Presentation Notes
+===================
+
+url: http://bit.ly/pr-proposal
+
+1. Domains: 
+  - Activism around affordable housing & anti-displacement, Participatory Mapping, Technology
+  - explain what affordable housing and displacement mean
+  - why the word dis-placement over gentrification
+  - specifically in NYC
+
+2. some Background
+
+3. Historical Context
+
+4. 3 of many structural practices by government, banks and financial institutions that led to current issues around affordable housing and displacement.
+
+5. Red Lining: 
+   - racist practice of denying loans to residents of specific areas based on race
+   - issued by the Home Owner’s Loan Corporation starting in the late 1940’s and continuing up to recently
+   - maps show the areas that have been redlined
+   - also demonstrates the “power of maps” as socio-political artifacts that can directly impact people’s lives, rather than as objective and truth
+
+6. Urban Renewal: 
+   - city plans that called for demolishing parts of neighborhoods designated as “blighted” 
+   - designation by city officials not the people who lived there
+   - cities received federal money to buy and clear land and supposedly relocate people to new development
+   - Areas designated for demolition were given urban renewal plans (also known as master plans) 
+   - some of which are still in effect today, some stipulate that land must be used for open or public space
+
+7. Dis-investment led to firehouses being closed and landlords using arson to get insurance money for properties.
+  - RAND corporation report influential to this policy in that it concluded when services such as police, garbage disposal and fire were withdrawn that people would leave.
+  - in the south Bronx and parts of Brooklyn services were reduced, such as closing fire houses and not maintaining water and fire hydrant infrastructure. 
+  - Became known as “the Bronx is Burning” as landlords used arson to avoid paying taxes on property and get insurance money
+  - “The number of fires from 1960 to 1977 increased from 60,941 to 129, 619. False alarms also rose, going from 89,432 in 1960 to 263, 659 in 1970.” 40% of Bronx’s fires, 4500, were arson in 1974 (NYC Fire Museum)
+  - policy became known as “Planned Shrinkage” by which cities in the 1960’s and 70’s dealt with urban blight and a loss of tax revenue. 
+  - Recently happened in Detroit when the city shut off water to poor residents with unpaid bills.
+
+
+8. Fast forward to today
+
+9. a huge amount of global capital being invested into real estate prior to and following the economic collapse in 2007/2008
+
+10. Real estate speculation has led to buying of land and massive building of luxury apartments 
+  - while the affordable housing stock has dwindled and 
+  - tenants are displaced due to rising rents, wrongful evictions, landlord harassment, buy-outs, not knowing their legal rights.
+
+11. info graphic showing financial trends in housing post-crash of 2007-8
+
+12. Deblasio’s mission to create and preserve affordable housing, 
+   - yet the emphasis really needs to be placed on the preservation part due to calculation of AMI
+   - Fed goverment says that 30% of AMI is “affordable” rent but many people pay 50% of their income to rent
+
+13. We’re losing true affordable housing units, building new “affordable” housing isn’t going to solve the problem alone
+
+14. Research Questions
+
+15. community organizing practices (Cooper Square Committee in the LES, Northwest Bushwick, MTOPP)
+
+16. how are (participatory) mapping and GIS able to assist? Anti-eviction mapping project
+
+17. 
+
+18. Precedents
+
+19. Anti-Eviction
+
+20. Why Don’t We Own This
+
+21. 596 Acres
+
+22. Urban Reviewer
+
+23. Northwest Bushwick Community Map
+
+24. Methodology
+
+25. probably won’t have time to implement true PAR 
+    - but will seek to use other forms of qualitative and participatory research.
+
+26. timeline
+
+27. Help me plan for my MFA thesis project and potentially propose a PAR methodology for helping communities resist displacement
+  - already done some interviews, group discussions, participated in a participatory mapping project in Bushwick, went to a community group meeting in my neighborhood and helped them with some data retrieval
+  - planning on assisting the bushwick group with some web design 
+
+
+### Citations:
+
+Bronx photo: "BrokenPromises JohnFekner" by User Incantation on en.wikipedia - Photograph by John Fekner © 1980 Donated to Wikipedia project by the artist. Licensed under Creative Commons Attribution-Share Alike 3.0 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:BrokenPromises_JohnFekner.jpg#mediaviewer/File:BrokenPromises_JohnFekner.jpg
+
+Slum Clearance: Andrew Tucker

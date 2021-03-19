@@ -1,0 +1,93 @@
+Final present outline
+=====================
+
+1. Concept: To utilize D&T to combat the displacement of NYC residents from hyper-gentrification.
+
+  - stems from several problems:
+
+     1. Hyper gentrification (luxury development) is rapidly displacing NYC renters.
+
+     2. Most tenants are not aware of their rights.
+
+     3. Most tenants do not understand the processes that lead to displacement.
+
+2. Prototypes going backwards chronologically
+
+  A. *Am I Rent Stabilized dot com
+
+    i. goals: 
+
+     - inform users about rent-regulation in NYC
+     - motivate them to take action to protect themselves
+
+    ii. stems from a discrepancy between reported and non-reported rent-stabilized apartments
+
+    ( show cartodb map & explain process )
+
+  B. Web Scraping NYC Property Transaction Data
+
+    i. goal: provide access to property transaction history to tenants rights group
+   
+    ii. problem: property history is open but not accessible in a user friendly manner
+
+
+  C. NYC Property Data Extractor
+
+    i. goal: to make open data on NYC properties more accessible
+
+    ii. stems from doing pro-bono work for tenants rights groups 
+         
+         - people not knowing how to get info
+
+         - open data being stored in proprietary formats (GIS)
+
+    iii. problem: would this benefit developers more than tenants & advocates of tenants rights?
+
+
+— — — connect prototypes to end product — — — 
+— target audience
+— stake holders
+
+- goal: create an empathetic response from the audience
+
+3. Moving Forward
+
+  A. Currently conducting ethnographic research with residents who have experienced displacement
+    (being priced out, landlord harassment, illegal evictions)
+
+  B. Goal: Design A spatial narrative around people’s experiences with displacement while also showing
+     how luxury development contributes to it.
+
+  C. End product: A walking tour of displacement narratives in Bushwick (qualitative)
+       while also using data visualization to show how changes in the build environment correlate with these experiences (quantitative)
+
+  D. Goal: to spread awareness about landlord harassment, illegal practices and developers' lack of accountability
+ 
+
+**************************
+EXTRA:
+
+1. Domains: 
+
+  - Critical Cartography
+  - Critical GIS
+  - Counter Mapping
+  - Civic Tech
+
+  - design & technology as a social practice
+
+2. Data Processing
+
+  - DHCR data FOIL’d
+  - Map Pluto GIS data
+
+  - querying map pluto & joining against DHCR
+
+3. Questions:
+
+  - Is open data really open? 
+ 
+  - how can open data be leveraged for civic engagement and transparency in local gov’t?
+
+  - 
+  

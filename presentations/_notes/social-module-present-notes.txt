@@ -1,0 +1,49 @@
+Social Module Presentation Notes
+================================
+(note: slides moved to thesis-blog/assets/social/) 
+
+## Domain Overlap
+- Critical Cartography & Counter Mapping
+
+## Communities & Conferences
+
+## Companies & Non-Profits
+
+## People to potentially interview
+
+- one said yes so far
+
+- hopefully will run into Rebecca Solnit at the People’s Climate March
+
+## Prototype
+
+- showing the intersection of alpha shapes with all urban areas in the world
+
+ - urban with flickr =  magenta
+ - urban without flickr = yellow
+
+- 10 minutes of tweets over layed temporally
+
+- Q: Where is social media coming from?
+
+### How:
+
+- not just using a GUI
+- used PostgreSQL & PostGIS
+
+## explain alpha shapes
+
+- using a photos meta data: WOE ID, Lat, Lon to aggregate locations into shapes
+
+explain twitter streaming API
+
+- 10 minutes = ~75,000 geotagged tweets out of 120,000 total
+
+
+### Why?
+
+- Q: what can data from social media tell us about place?
+
+- Q: Can this data be leveraged in a way that makes mapping more humanistic and democratic?
+
+- still thinking about this.
