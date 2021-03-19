@@ -6,7 +6,7 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 ngoffin: # replace this with your info
-  name: "Goffin Nicolas"
+  name: "Nicolas Goffin"
   siterole: "author"
   uri: https://bio-data-tricks.github.io/BioDT/
   email: colapili@gmail.com
