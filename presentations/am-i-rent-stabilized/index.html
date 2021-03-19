@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Am I Rent Stabilized? presentation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link rel="stylesheet" type="text/css" href="big.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="big.js"></script>
+  </head>
+  <body>
+    
+    <div class="center">
+      <h1>Am I Rent Stabilized?</h1>
+      <p>
+        Chris Henrick <br>
+      </p>
+      <notes>background in geography, cartography, gis, --now work as a web developer. completed this project as part of my masters thesis for the Parsons MFA Design & Technology program</notes>
+    </div>
+
+    <div>
+      <h3>Concept:</h4>
+      <p>        
+        A web app to encourage NYC tenants to find out if their landlord is 
+        <em>illegally over charging</em> them for a <em>rent-regulated apartment.</em>
+      </p>
+      <notes>for a rent stabilized apartment</notes>
+    </div>
+
+    <div>
+      <h3>What I'll be covering:</h3>
+      <ul>        
+        <li>Rent Regulation in NYC</li>
+        <li>Problems with enforcement</li>
+        <li>FOIL'ing of Rent Stabilized data</li>
+        <li>Demo of the app</li>
+        <li>Evaluating its success</li>
+      </ul>
+    </div>
+
+    <div>
+        <h1>Background</h1>
+    </div>
+
+<!--     <div>
+      <h3>Housing in NYC</h3>
+      <br>
+      <img src="img/98linden.jpg">
+      <notes>Not always this bad, but it happens</notes>
+    </div> -->
+
+    <div><h3>New York Rent Laws:</h3>
+      <ul>
+        <li>Rent Control</li>
+        <li>Rent Stabilization</li>
+      </ul>
+      <notes>Limits how much a landlord can raise a tenant's rent each year; guarantees renewal lease; harsher penalties for landlord negligence; has its historical roots in the labor movement of the late 1800's / early 1900's</notes></div>
+
+    <div>Rent Stabilization affects <em>~50% of all apartments in NYC</em>
+      <notes>Really the one thing keeping NYC affordable for millions of people. However...</notes></div>
+
+    <div><h3>Problem:</h3>Landlords not telling their tenants they are <em>rent-stabilized.</em></div>
+
+    <div><h3>Problem:</h3><em>No pro-active enforcement</em> by government for non-compliance.</div>
+
+    <div>Burden of enforcement is placed on <em>the tenant!</em></div>
+
+    <div><h3>Enter Open Data</h3>(well sort of open...)</div>
+
+    <div><img src="img/hcr-list-pdf.png">List of NYC Buildings registered with the DHCR that contain Rent Stabilized units
+      <notes>A list of buildings registered with the DHCR containing rent-stabilized units. Again the process is voluntary. </notes></div>
+
+    <div><img src="img/hcr-list-pdf_bbl_highlight.png">BBL's!!!
+      <notes>Borough, Block, Lot number = a unique identifier. Problem was the data is trapped in a PDF.</notes></div>
+
+    <div class="center"><img src="img/foil-request_.png">FOIL request
+      <notes>Was able to obtain the data in a machine readable format</notes></div>
+
+    <div><img src="img/nyc_pluto.png">Map PLUTO
+      <notes>NYC Map PLUTO = tax lot data for the entire city</notes></div>
+
+    <div><img src="img/nyc-likely-reg-vs-non-reg-rent-stabl.jpg">Registered VS. "likely non-registered"<notes>Determine properties that have registered RS units; and those that may have un-registered units; </notes></div>
+
+    <!-- Registered VS. "likely non-registered" <br>  -->
+
+    <div>
+      <em>SQL query:</em>
+      <pre>
+      <code style="position:relative; line-height: 175%;">
+      SELECT * FROM map_pluto2014v2 
+      WHERE 
+        yearbuilt < 1974 
+        AND unitsres >= 6 
+        AND bldgclass not ILIKE 'r%';        
+      </code>
+      </pre>
+      <notes>Anything that was built before 1974, has 6 or more units, and is not a coop or condo</notes>
+    </div>
+
+    <div>
+      <h3>Stats</h3>
+      <ul style="position:static;">
+        <li>RS makes up ~50% of all apartments in NYC</li>
+        <li>47,150 registered properties</li>
+        <li>12,549 not registered that may have RS units</li>
+        <li>??? total RS units in NYC</li>
+        <li>Avg RS rent???</li>
+      </ul>
+      <notes>complexity of data: ambiguous, lack of cooperation with DHCR (claiming its private)</notes>
+    </div>
+
+    <div>
+      <h3>Q:</h3>
+      <p>How to make this data more <em>useful?</em></p>
+    </div>
+
+    <div>
+      <h3>A:</h3>
+      <p>To use <em>Open Data</em><br> 
+        as a prompt for <em>Civic Action.</em></p>
+    </div>
+
+    <div><a href="https://amirentstabilized.com">DEMO</a></div>
+
+    <div>
+      <h3>all the things:</h3>
+      <ul>
+        <li>Postgres &amp; PostGIS</li>
+        <li>CartoDB.JS &amp; SQL API</li>
+        <li>Leaflet.JS</li>
+        <li><em>NYC's Geoclient API</em></li>
+        <li>Handlebars.JS</li>
+        <li>GSAP (for "smooth scrolling")</li>
+      </ul>
+    </div>
+
+    <div>
+      <h1>Evaluation</h1>
+      <notes>Has it been successful?</notes>
+    </div>
+
+    <div>
+      App is being used by tenants rights and affordable housing advocacy groups.
+    </div>
+
+    <div>
+      Working with <a target="_blank" href="https://www.propublica.org">ProPublica</a> to improve upon &amp; spread awareness of the app.
+    </div>
+
+    <div>
+      <h3>What I covered:</h3>
+      <ul>
+        <li>Rent Regulation in NYC</li>
+        <li>Problems with enforcement</li>
+        <li>FOIL'ing of data</li>
+        <li>Demo of the app</li>
+        <li>Evaluating its success</li>
+      </ul> 
+    </div>
+
+    <div><em>Thank You</em>
+      <hr>
+      <a href="https://amirentstabilized.com">AmIRentStabilized.com</a>
+      <ul style="position:static">
+        <li>twitter: <em>@chrislhenrick</em></li>
+        <li>github: <em>github.com/clhenrick/am-i-rent-stabilized</em></li>
+      </ul>
+    </div>
+
+    <!-- Buildings that likely have RS apartments either registered or not with the DHCR: http://cdb.io/1CxBFB4 -->
+    
+    <div><span>fin</span></div>
+  </body>
+</html>

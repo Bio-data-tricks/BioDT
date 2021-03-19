@@ -1,0 +1,119 @@
+body {
+  font-family: "Oxygen", Arial,"Helvetica Neue", Helvetica, sans-serif;
+  background: #fff;
+  background-size: 100%;
+  color: hsl(0,0%,50%);
+  margin:0;
+  padding:0;
+  font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans-rounded", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 90%;
+  color: #FFC462;
+  /*text-shadow: 0px 0px 8px hsla(0,0%,20%,0.6);*/
+  margin:0;
+}
+
+p {
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  color: hsl(0,0%,40%);
+}
+
+p span {
+  position: relative;
+  line-height: 150%;
+  left: 10%;
+}
+
+em {
+  font-weight: 600;
+  color: rgb(216, 154, 135);
+  line-height: 110%;
+}
+
+/*em, a {
+  font-style:normal;
+}*/
+
+a {
+  background: #4a4a4a;
+  color:#fff;
+  text-decoration:none;
+  line-height: 125%;
+}
+
+img {
+  width:100%;
+  border: 1px solid #9b9b9b;
+}
+
+div {
+  margin: 0;
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:125%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  /*-webkit-text-stroke: 1px #fff;*/
+  text-shadow: 
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+  color: hsl(0,0%,10%); /*rgb(216, 154, 135);*/
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+ul {
+  position: relative;
+  left: 10%;
+}
+
+li {
+  line-height: 120%;
+}
+
+.right {
+  text-align: right;
+  float: right;
+}
+
+hr {
+  border-width: 3px;
+  border-style: solid;
+  border-color: hsl(0,0%,75%);
+}
+
+pre {
+  background-color: hsl(0,0%,20%);
+}
+
+code {
+  background-color: inherit;
+  line-height: 160%;
+  color: hsl(0,0%,90%);
+}
+
+/* normally not good, but ok in context of full screen directional navigation */
+:focus {
+    outline: 0;
+}
+
+notes {
+  display: none;
+}
