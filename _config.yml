@@ -36,8 +36,7 @@ baseurl: '/BioDT'
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: '/images/'
-
+urlimg: 'https://bio-data-tricks.github.io/BioDT/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
