@@ -7,7 +7,7 @@
 layout: frontpage
 header:
   title: Nicolas GOFFIN
-  image_fullwidth: clhenrick-landing-header.jpg
+  image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
 widget1:
   title: "My Work"
   url: '/work/'
