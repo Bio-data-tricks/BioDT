@@ -1,0 +1,268 @@
+<!DOCTYPE html><html><head>
+<title>Tech + Open Data 4 Housing Justice</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {  
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  letter-spacing: -0.1em;
+  background:#fff;
+  background-size:100%;
+  color:#000;
+  margin:0;
+  padding:0;
+  font-weight: 100;
+  /*white-space:pre-wrap;*/
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+  margin:0;
+}
+
+h6 {
+  font-weight: 200;
+  text-shadow: none;
+}
+
+h6 a  {
+  background-color: #fff;
+}
+
+em, a {
+  position: relative;
+  /*padding: 0 2%;*/
+  /*font-family: Futura, "Trebuchet MS", Arial, sans-serif;*/
+  font-family: 'Arial', Gadget, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  text-shadow: 0px 0px 15px hsla(300, 100%, 50%, 0.8);
+  top: .03em;
+}
+
+a {
+  display: inline-block;
+  padding: 0 2%;
+  background: hsla(188,80%,55%,0.3);
+  color:#000;
+  text-decoration:none;
+  text-transform: none;
+  text-shadow: none;
+}
+
+img {
+  width:100%;
+  border: 1px solid hsl(0,0%,25%);
+}
+
+video {
+  width: 100%;
+  position: relative;
+  left: 10%;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:110%;
+  background-repeat: no-repeat;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow: 0px 0px 15px hsla(0,90%,50%,0.8);
+  opacity: 0.6;
+}
+
+div.dark.imageText {
+  color: #fff;
+  opacity: 0.8;
+}
+
+div.sub-category {
+  font-style: italic;
+}
+
+pre {
+  display: inline-block;
+}
+
+pre a {
+  text-transform: lowercase;
+  padding: 0;
+}
+
+span {
+  position: relative;
+  padding: 0 2%;
+  letter-spacing: normal;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 0px 0px 15px hsla(50, 100%, 50%, 0.8);
+}
+
+span.special {
+  position: relative;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1%;
+  color: hsl(50, 90%, 50%);
+}
+
+span.special2 {
+  position: relative;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 600;
+  padding: 1%;
+  color: hsl(50, 90%, 50%);
+}
+
+li {
+  margin-top: 2%;
+}
+
+/* normally not good, but ok in context of full screen directional navigation */
+:focus {
+    outline: 0;
+}
+
+notes {
+  display: none;
+}
+
+</style><script type='text/javascript'>
+window.onload = function() {
+    var s = document.getElementsByTagName('div'), ti, i;
+    for (i = 0; i < s.length; i++) s[i].setAttribute('tabindex', 0);
+    if (!s) return;
+    var big = { current: 0, forward: fwd, reverse: rev, go: go, length: s.length };
+    window.big = big;
+    function resize() {
+        var w = window.innerWidth, h = window.innerHeight, e = s[big.current];
+        e.style.fontSize = h + 'px';
+        for (i = h - 2; i > 0 && (e.offsetWidth > w || e.offsetHeight > h); i -= 2) {
+            e.style.fontSize = i + 'px';
+        }
+        e.style.marginTop = (h - e.offsetHeight) / 2 + 'px';
+    }
+    function go(n) {
+        big.current = n;
+        var e = s[n], t = parseInt(e.getAttribute('data-timeToNext') || 0, 10),
+            notes = e.getElementsByTagName('notes');
+        document.body.className = e.getAttribute('data-bodyclass') || '';
+        for (i = 0; i < s.length; i++) s[i].style.display = 'none';
+        e.style.display = 'inline';
+        e.focus();
+        for (i = 0; typeof console === 'object' && i < notes.length; i++) console.log('%c%s: %s', 'padding:5px;font-family:serif;font-size:18px;line-height:150%;', n, notes[i].innerHTML.trim());
+        if (e.firstChild && e.firstChild.nodeName === 'IMG') {
+            document.body.style.backgroundImage = 'url("' + e.firstChild.src + '")';
+            e.firstChild.style.display = 'none';
+            if ('classList' in e) e.classList.add('imageText');
+        } else {
+            document.body.style.backgroundImage = '';
+            document.body.style.backgroundColor = e.style.backgroundColor;
+        }
+        if (ti !== undefined) window.clearInterval(ti);
+        if (t > 0) ti = window.setTimeout(fwd, t * 1000);
+        resize();
+        if (window.location.hash !== n) window.location.hash = n;
+        document.title = e.textContent || e.innerText;
+    }
+    document.onclick = function() { go(++big.current % s.length); };
+    function fwd() { go(Math.min(s.length - 1, ++big.current)); }
+    function rev() { go(Math.max(0, --big.current)); }
+    document.onkeydown = function(e) {
+        if (e.which === 39 || e.which === 34 || e.which === 40) fwd();
+        if (e.which === 37 || e.which === 33 || e.which === 38) rev();
+    };
+    document.ontouchstart = function(e) {
+        var x0 = e.changedTouches[0].pageX;
+        document.ontouchend = function(e2) {
+            var x1 = e2.changedTouches[0].pageX;
+            if (x1 - x0 < 0) fwd();
+            if (x1 - x0 > 0) rev();
+        };
+    };
+    function parse_hash() {
+        return Math.max(Math.min(s.length - 1,
+            parseInt(window.location.hash.substring(1), 10)), 0);
+    }
+    if (window.location.hash) big.current = parse_hash() || big.current;
+    window.onhashchange = function() {
+        i = parse_hash();
+        if (i !== big.current) go(i);
+    };
+    window.onresize = resize;
+    go(big.current);
+};
+</script></head><body>
+
+<div class="center"><em>Technology<br> &amp; Open Data for Housing Justice</em><h6><a target="_blank" href="https://twitter.com/chrislhenrick">@chrislhenrick</a></h6></div>
+<!-- <div><em>Q: </em>How can design &amp; technology leverage open data to combat the negative effects of hyper gentrification?<br><span>Specifically displacement?</span></div> -->
+<div><em>Concept:</em><br>To use open data, technology and personal narratives to<br> <span>combat the displacement of NYC residents</span> from hypergentrification.</div>
+<!-- <div><em>Problem:</em><br>Hyper-gentrification is <span>displacing</span> poor &amp; working class NYC residents.</div> -->
+<div><em>Problem:</em><br>Disconnect between city planners &amp; NYC residents.</div>
+<div><em>Problem:</em><br>Developers have too much political power and don't address community concerns.</div>
+<div><em>Problem:</em><br>Landlords easily get away with illegal practices such as tenant harassment.</div>
+<div><em>Problem:</em><br>Many tenants are not aware of their legal rights.</div>
+
+<div class="center"><em>Projects</em></div>
+
+<div class="center"><a target="_blank" href="http://www.bushwickcommunitymap.org" target="_blank">Bushwick Community Map</a> <h6>(Redesign)</h6></div>
+<div><em>Goals:</em><br>Improve an existing web resource on housing data for community groups in Bushwick, BK.</div>
+<div><img src="img/nwb-map-before.jpg">before...</div>
+<div><img src="img/nwb-map-redesign.jpg">after...</div>
+
+<div><a target="_blank" href="http://amirentstabilized.com" target="_blank">Am I Rent Stabilized?</a></div>
+<div>
+  <img src="img/airs-01.png">
+</div>
+<div>
+  <img src="img/airs-02.png">
+</div>
+<div><em>Goals:</em><br><span>One:</span> Educate tenants about their rights around rent regulation.</div>
+<div><em>Goals:</em><br><span>Two:</span> Motivate tenants to take action to protect themselves.</div>
+<div><em>Research:</em><br>There exists a discrepancy between <span> registered</span> and <br><span>non-registered</span> rent-stabilized apartments. <pre><a target="_blank" href="http://cdb.io/1vfzSDJ" target="_blank">(map)</a></pre></div>
+<div class="dark"><img src="img/nyc-likely-reg-vs-non-reg-rent-stabl.jpg">registered and potentially non-registered rent-stabilized apartments</div>
+
+<!-- Landscapes of Profit -->
+<div><a target="_blank" href="http://www.landscapesofprofit.com">Landscapes of Profit</a></div>
+<div>A project for the <span> <br> NYC Real Estate Investment Cooperative</span></div>
+<div><em>Concept:</em><br>Proposing a <span>one percent flip tax</span> on new development to fund <span>permanently affordable</span> workplaces and housing.</div>
+<div><img src="img/landscapes-of-profit-pamphlet.png"><notes>Distribution of a proposed 1% tax on flips in 2014 by city council district</notes></div>
+<div><em>Methodology:</em><br> Analysis of real estate transaction data from <a target="_blank" href="http://a836-acris.nyc.gov/CP/">ACRIS</a></div>
+
+<!-- TFHJ -->
+<div><em>Tools For Housing Justice</em></div>
+<div><span>Concept:</span><br> An App to help NYC tenants rights organizations utilize open data</div>
+<div>Partnering with the <a target="_blank" href="https://coopersquare.org/">Cooper Square Committee</a></div>
+<div>Integrate <span>Building Indicators Project</span> data with <span>Civi-CRM</span></div>
+<div><em>Goal:</em><br> Integrating <span>qualitative</span> &amp; <span>quantitative</span> data to assist CSC.</div>
+<div><em>Goal:</em><br> <span>Case Study / User Test</span> to see if it can be effective for tenants-rights groups elsewhere</div>
+
+<!-- Next Steps -->
+<div class="center"><em>Next Steps</em></div>
+<div><em>Continuing:</em><br> <span>Landscapes For Profit</span><br> &amp;<br> <span>Tools For Housing Justice</span></div>
+<div>
+  <em>Data updates &amp; More Features</em> <br> 
+  <span>Northwest Bushwick Community Map</span>
+</div>
+
+<!-- thanks -->
+<div><em>Thank You</em>
+  <br>twitter: <a style="background-color:#fff; text-shadow:none;;" href="https://twitter.com/chrislhenrick">@chrislhenrick</a>
+  <br>github: <a style="background-color:#fff; text-shadow:none;" href="https://github.com/clhenrick">@clhenrick</a>
+  <hr>
+  <ul style="position:relative; left:10%;">
+    <li><a target="_blank" href="http://www.bushwickcommunitymap.org">www.bushwickcommunitymap.org</a></li>   
+    <li><a target="_blank" href="https://amirentstabilized.com">amirentstabilized.com</a></li>
+    <li><a target="_blank" href="http://www.landscapesofprofit.com">www.landscapesofprofit.com</a></li>
+  </ul></div>
+<body><html>
