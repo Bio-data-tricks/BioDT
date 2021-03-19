@@ -11,7 +11,7 @@ header:
 widget1:
   title: "My Work"
   url: '/work/'
-  image: nag-toxicity-map01-thumb.jpg 
+  image: https://github.com/Bio-data-tricks/BioDT/blob/gh-pages/images/nag-toxicity-map01.jpg
   text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopy - Data Preprocessing '
   
 widget2:
