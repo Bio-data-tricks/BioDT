@@ -1,4 +1,3 @@
-@charset "utf-8";
 /* TOC – Typography
 
 Check typography variables › _3_typography_settings.scss
@@ -25,24 +24,22 @@ Check typography variables › _3_typography_settings.scss
 ------------------------------------------------------------------- */
 
 a,
-a:link {
-    transition: all .4s;
-}
+a:link {}
 
 a:visited {
     border-bottom: $grey-2;
 }
 
 a:hover {
-    color: darken( $ci-1, 10% );
+    color: $anchor-font-color-hover;
 }
 
 a:focus {
-    color: lighten( $ci-1, 20% );
+    color: lighten( $anchor-font-color, 20% );
 }
 
 a:active {
-    color: darken( $ci-1, 20% );
+    color: darken( $anchor-font-color, 20% );
 }
 
 
@@ -55,9 +52,9 @@ p {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    -ms-word-break: normal;
+    -ms-word-break: break-all;
     /* Non standard for webkit */
-    word-break: normal;
+    word-break: break-word;
 }
 p a,
 article a {
@@ -83,79 +80,37 @@ p.button a {
 
 
 /* Headlines
-   The hK::before logic is to accomodate a vert. offset for persistent
-   top of page menu. The logic is copied from
-   https://css-tricks.com/hash-tag-links-padding/
 ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font-family;
     font-weight: normal;
+    line-height: 1.2em;
     padding: 0;
 }
 
 h1 {
     font-size: $font-size-h1;
-    margin-top: 0;
-}
-h1::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -60px; 
-  height: 60px; 
-  visibility: hidden; 
-  pointer-events: none;
+    margin: 20px 0 20px 0;
 }
 h2 {
     font-size: $font-size-h2;
-    margin: 1.563em 0 0 0;
+    margin: 20px 0 20px 0;
 }
     .blog-index h2 {
         margin-top: 0;
     }
-h2::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -60px; 
-  height: 60px; 
-  visibility: hidden; 
-  pointer-events: none;
-}
 h3 {
     font-size: $font-size-h3;
-    margin: 1.152em 0 0 0;
-}
-h3::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
-  visibility: hidden; 
-  pointer-events: none;
+    margin: 20px 0 20px 0;
 }
 h4 {
     font-size: $font-size-h4;
-    margin: 1.152em 0 0 0;
-}
-h4::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
-  visibility: hidden; 
-  pointer-events: none;
+    margin: 15px 0 15px 0;
 }
 h5 {
     font-size: $font-size-h5;
-    margin: 1em 0 0 0;
-}
-h5::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -50px; 
-  height: 50px; 
-  visibility: hidden; 
-  pointer-events: none;
+    margin: 1em 0 1em 0;
 }
 
 
@@ -281,10 +236,10 @@ blockquote {
     position: relative;
     border: none;
     margin: 0 30px 30px 30px;
-    color:  $grey-11;
+    // color: #4b4b4d
 }
 
-    blockquote p {font-style: italic; color: $grey-10; }
+    blockquote p {font-style: italic; color: $text-color; }
 
     blockquote:before {
         display:block;content:"\00BB";
@@ -293,7 +248,7 @@ blockquote {
         position:absolute;
         left:-25px;
         top: auto;
-        color: $grey-11;
+        color:#4b4b4d
     }
     blockquote:after {
         display:block;
@@ -303,13 +258,13 @@ blockquote {
         position:absolute;
         right:-10px;
         bottom: 20px;
-        color: $grey-11;
+        color:#4b4b4d;
     }
     blockquote cite:before {
         content:"\2014 \0020"
     }
     blockquote cite a,blockquote cite a:visited {
-        color: $grey-10;
+        color: #555
     }
 cite {
     padding-top: 5px;
@@ -441,7 +396,6 @@ mark {
 .icon-feather:before,
 .icon-github:before,
 .icon-globe:before,
-.icon-googleplus:before,
 .icon-heart:before,
 .icon-heart-outlined:before,
 .icon-home:before,
@@ -510,7 +464,6 @@ font-smoothing: antialiased;
 .icon-feather:before { content: "\f114"; }
 .icon-github:before { content: "\f115"; }
 .icon-globe:before { content: "\f116"; }
-.icon-googleplus:before { content: "\f136"; }
 .icon-heart:before { content: "\f117"; }
 .icon-heart-outlined:before { content: "\f118"; }
 .icon-home:before { content: "\f119"; }
