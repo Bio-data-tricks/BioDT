@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  title: Chris L Henrick
+  title: Nicolas GOFFIN
   image_fullwidth: clhenrick-landing-header.jpg
 widget1:
   title: "My Work"
