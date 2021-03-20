@@ -12,7 +12,7 @@ header:
 widget1:
  title: "My Work"
  url: '/work/'
- image: widget-1-302x182.jpg
+ image_fullwidth: widget-1-302x182.jpg
  text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopy - Data Preprocessing '
   
 widget2:
