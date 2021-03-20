@@ -12,12 +12,13 @@ header: no
 ## Professional Experience
 -----
 
-### Google
-**UX Engineer: Data Visualization**  
-*September, 2018 – Present*  
-San Francisco, CA
+### University of Reims Champagne-Ardennes, FRANCE
+BioSpecT EA 7506
+**PhD student**
+*November, 2019 – Present*  
+Thesis subject: "Structural and functional characterization of cancer associated adipocytes by vibrational spectroscopy"
 
-User Experience Engineer focusing on data visualization for [Google Cloud Platform](https://cloud.google.com/) and other product areas at Google. Collaborating with UX and Visual Designers, UX Researchers, Software Engineers, and others to develop internal and external data visualization software for creating highly functional and complex visualizations.
+Déctrire l'activité
 
 ### OmniSci
 **Data Visualization Engineer**  
