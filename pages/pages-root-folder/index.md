@@ -12,11 +12,13 @@ header:
 widget1:
  title: "My Work"
  url: '/work/'
+ image: nag-toxicity-map01-thumb.jpg
  text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopic data Preprocessing - Deep Learning - Machine Learning - Trajectory inference'
  
 widget2:
  title: "Who am I ?"
  url: '/about/'
+ image: nag-toxicity-map01-thumb.jpg
  text: 'Here you will find some information about my academic and professional background. '
   
 widget3:
