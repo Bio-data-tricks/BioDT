@@ -8,19 +8,19 @@ layout: frontpage
 header:
  title: ""
  image_fullwidth: fluorescence-deconvolution_neurospheres_cell.png
-  
+ 
 widget1:
+ title: "Who am I ?"
+ url: '/about/'
+ image: nag-toxicity-map01-thumb.jpg
+ text: 'Here you will find some information about my academic and professional background. Do you want my CV ? ' 
+ 
+widget2:
  title: "My Work"
  url: '/work/'
  image: nag-toxicity-map01-thumb.jpg
  text: 'Data Visualization - Spectroscopic data Preprocessing - Deep Learning - Machine Learning - Trajectory inference'
  
-widget2:
- title: "Who am I ?"
- url: '/about/'
- image: nag-toxicity-map01-thumb.jpg
- text: 'Here you will find some information about my academic and professional background. Do you want my CV ? '
-  
 widget3:
  title: "Talk to me"
  url: '/contact/'
