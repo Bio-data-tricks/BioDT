@@ -13,9 +13,9 @@ header: no
 -----
 
 ### University of Reims Champagne-Ardennes, FRANCE
-BioSpecT EA 7506
 **PhD student**
 *November, 2019 – Present*  
+Laboratory: BioSpecT EA 7506
 Thesis subject: "Structural and functional characterization of cancer associated adipocytes by vibrational spectroscopy"
 
 Déctrire l'activité
