@@ -7,7 +7,7 @@
 layout: frontpage
 header:
  title: ""
- image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer2%20(2).png
+ image_fullwidth: fluorescence-deconvolution_neurospheres_cell.png
   
 widget1:
  title: "My Work"
