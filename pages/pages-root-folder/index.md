@@ -12,7 +12,7 @@ header:
 widget1:
  title: "Who am I ?"
  url: '/about/'
- image: nag-toxicity-map01-thumb.jpg
+ image: data_science.jpg
  text: 'Want some information about my academic and professional background or want my CV ? ' 
  
 widget2:
