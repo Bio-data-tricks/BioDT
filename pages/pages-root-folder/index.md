@@ -13,7 +13,7 @@ widget1:
  title: "My Work"
  url: '/work/'
  image: nag-toxicity-map01-thumb.jpg
- text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopic data Preprocessing - Deep Learning - Machine Learning - Trajectory inference'
+ text: 'Data Visualization - Spectroscopic data Preprocessing - Deep Learning - Machine Learning - Trajectory inference'
  
 widget2:
  title: "Who am I ?"
