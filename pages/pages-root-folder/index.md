@@ -16,12 +16,6 @@ widget1:
  text: '<strong>Encompasses:</strong> Data Visualization - Spectroscopy - Data Preprocessing '
   
 widget2:
- title: "Blog"
- url: '/blog/'
- image: nag-toxicity-map01-thumb.jpg
- text: 'Here you will find all kinds of subjects that may interest me.'
-  
-widget3:
  title: "Talk to me"
  url: '/contact/'
  image: nag-toxicity-map01-thumb.jpg
