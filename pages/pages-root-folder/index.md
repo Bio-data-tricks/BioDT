@@ -6,8 +6,8 @@
 #
 layout: frontpage
 header:
- title: Bio-DATA-Tricks
- image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer.jpg
+ title: 
+ image_fullwidth: fluorescence-deconvolution_neurospheres_celldiscoverer2.jpg
   
 widget1:
  title: "My Work"
