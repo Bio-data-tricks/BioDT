@@ -13,28 +13,22 @@ header: no
 -----
 
 ### University of Reims Champagne-Ardennes, FRANCE
-**PhD student**
+**PhD student** 
 *November, 2019 – Present* 
-
 Laboratory: BioSpecT EA 7506 (BioSpectroscopie Translationnelle)
-
 Thesis subject: "Structural and functional characterization of cancer associated adipocytes by vibrational spectroscopy"
-
 Déctrire l'activité
 
 ### University of Reims Champagne-Ardennes, FRANCE
 **Master internship**  
 *January 2019 – June, 2019*  
- 
- Laboratory: Groupe de Spectrométrie Moléculaire et Atmosphérique (UMR CNRS 7331)
-
+Laboratory: Groupe de Spectrométrie Moléculaire et Atmosphérique (UMR CNRS 7331)
 Description du stage
 
 ### ADM Chamtor
 **R&D technician**  
 *January 2014 – June, 2019*  
- 
-Description du poste
+ Description du poste
 
 ## Education:
 -----
