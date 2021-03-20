@@ -1,14 +1,14 @@
 - title: ngoffin
   url: "/"
-  side: left
+  side: center
 
 - title: Work
   url: "/work/"
-  side: left
+  side: center
 
 - title: About
   url: "/about/"
-  side: left
+  side: center
   dropdown: 
     - title: CV
       url: "/about/cv/"
