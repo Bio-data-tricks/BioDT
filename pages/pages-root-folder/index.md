@@ -17,7 +17,7 @@ widget1:
  
  widget2:
  title: "Who am I ?"
- url: '/contact/'
+ url: '/about/'
  image: nag-toxicity-map01-thumb.jpg
  text: 'Here you will find some information about my academic and professional background. '
   
