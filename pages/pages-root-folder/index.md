@@ -13,7 +13,7 @@ widget1:
  title: "Who am I ?"
  url: '/about/'
  image: nag-toxicity-map01-thumb.jpg
- text: 'Here you will find some information about my academic and professional background. Do you want my CV ? ' 
+ text: 'Want some information about my academic and professional background or want my CV ? ' 
  
 widget2:
  title: "My Work"
