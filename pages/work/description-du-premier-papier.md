@@ -6,7 +6,7 @@ meta_title: "Nicolas Goffin featured work: Data processing description"
 teaser: "Vous trouverez ici les codes correspondant au papier N°1 blablabla."
 date: "2021-03-20"
 tags:
-  - spectroscopy 
+  - cartography print 
 category:
   - work
 header: no
