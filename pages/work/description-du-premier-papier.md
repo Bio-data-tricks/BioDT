@@ -10,12 +10,10 @@ tags:
 category:
   - work
 header: no
+permalink: "/work/description-du-premier-papier.html"
 ---
 
-
-"/work/description-du-premier-papier.html"
-
-blablablabla
+blablablablahhhhhhhhhhhhhsfhsfhsfhsfhsfhsfh
 
 
 [<span class="back-arrow">&#8619;</span> Back to the Portfolio](/work/)
