@@ -68,7 +68,7 @@ Download the most recent versions of R and RStudio for your laptop:
 
 **Please install them one-by-one as follows:**
 
-```r
+```
 install.packages("tidyverse")
 install.packages("Matrix")
 install.packages("RCurl")
@@ -89,7 +89,7 @@ install.packages("RCurl")
 
 **Please install them one-by-one as follows:**
 
-```r
+```
 BiocManager::install("SingleCellExperiment")
 BiocManager::install("AnnotationHub")
 & so on ...
@@ -97,7 +97,7 @@ BiocManager::install("AnnotationHub")
 
 **(3)** Finally, please check that all the packages were installed successfully by loading them **one at a time** using the `library()` function.  
 
-```r
+```
 library(Seurat)
 library(tidyverse)
 library(Matrix)
@@ -111,7 +111,7 @@ library(ensembldb)
 
 **(4)** Once all packages have been loaded, run sessionInfo().  
 
-```r
+```
 sessionInfo()
 ```
 
