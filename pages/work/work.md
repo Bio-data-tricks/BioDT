@@ -18,7 +18,6 @@ header: no
   <button data-filter=".Orange/Python">Orange/Python</button>
   <button data-filter=".Remote sensing">remote sensing</button>  
   <button data-filter=".Astrobiology">astrobiology</button>
-  <button data-filter=".Astrophotography">astrophotography</button>
   <button class="shuffle">shuffle!</button>
 </div>
 
