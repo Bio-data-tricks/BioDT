@@ -7,7 +7,7 @@ subheadline: ""
 permalink: "/about/cv/"
 header: no
 ---
-[Download as a PDF]({{site.urlimg}}chris-henrick-resume.pdf)
+[Download as a PDF]({{site.urlimg}}nicolas-goffin-resume.pdf)
 
 ## Professional Experience
 -----
