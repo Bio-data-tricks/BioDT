@@ -15,10 +15,3 @@ header: no
     <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
   </form>
 </div>
-
-<sub>
-    Pssst! If you need a fabulous contact form for your website, I suggest you use [Formspree][1].
-</sub>
-
-
- [1]: https://formspree.io/
