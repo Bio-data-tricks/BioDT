@@ -2,7 +2,7 @@
 layout: page-fullwidth
 show_meta: false
 title: "Portfolio"
-meta_description: "Featured work of Chris Henrick"
+meta_description: "Featured work of Nicolas Goffin"
 subheadline: ""
 permalink: "/work/"
 header: no
@@ -14,6 +14,8 @@ header: no
   <button data-filter=".web">interactive</button>
   <button data-filter=".data-viz">data viz</button>  
   <button data-filter=".cartography">cartographic design</button>
+  <button data-filter=".spectroscopy">spectroscopy</button>
+  <button data-filter=".deep learning">deep learning</button>
   <button class="shuffle">shuffle!</button>
 </div>
 
