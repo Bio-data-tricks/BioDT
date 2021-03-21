@@ -16,7 +16,7 @@ header: no
 **PhD student** 
 *November, 2019 – Present* 
 Laboratory: BioSpecT EA 7506 (BioSpectroscopie Translationnelle)
-Thesis subject: "Structural and functional characterization of cancer associated adipocytes by vibrational spectroscopy"
+Thesis subject: Structural and functional characterization of cancer associated adipocytes by vibrational spectroscopy
 Déctrire l'activité
 
 ### University of Reims Champagne-Ardennes, FRANCE
@@ -33,29 +33,16 @@ Description du stage
 ## Education:
 -----
 
-### Parsons, The New School For Design
-**Master of Fine Art in Design and Technology.**  
-New York, NY  
-GPA 3.91
+### University of Reims 
+**Bachelor (Licence) Biologie cellulaire et moléculaire**   
 
-MFA Thesis: [Am I Rent Stabilized?](https:amirentstabilized.com), an interactive web-app about rent-stabilization in New York City.
+### Paul Sabatier University (Université Toulouse III - Paul Sabatier)
+**(Master 1) Chimie théorique et modélisation**  
+Toulouse, FRANCE
 
-Areas of focus in [MFA DT](http://www.newschool.edu/parsons/mfa-design-technology/) included interactive web-mapping, data-visualization, web development, user experience design, game design, interactive narrative, open-source GIS, and creative coding.
-
-Taught front end web development as part of a 3 week intensive "bootcamp" to the incoming 2014 MFA DT class.
-
-Taught a two day workshop on Node.JS and Bash to the incoming class of Parsons MS in Data Visualization class of 2015.
-
-### U.C. Berkeley Extension
-**Graphic Design Certificate Program**  
-San Francisco, CA
-
-Areas of concentration include graphic design and typography.
-
-### Temple University
-**Bachelor of Arts in Geography and Urban Studies.**  
-Philadelphia, PA  
-GPA 3.77, graduated Magna Cum Laude.  
+### Université d'Aix-Marseille 
+**(Master 1) Physique Findamentale**  
+Toulouse, FRANCE
 
 Member of Gamma Theta Upsilon, National Honors Society for Geography.
 Recipient of the Henry N. Michael Prize in Geography and Urban Studies.
