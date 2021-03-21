@@ -9,7 +9,6 @@ header: no
 ---
 
 <div class="panel">
-<iframe width="100%" height="650" frameborder="0" scrolling="no" src="https://phlowmedia.wufoo.com/embed/z7x3k1/"></iframe>
   <form action="https://formspree.io/f/mzbypzlv" method="POST" class="form-stacked form-light">
     <input type="text" name="email" class="input mobile-block" placeholder="Email Address">
     <textarea type="text" name="content" class="input mobile-block" rows="5" placeholder="What would you like to say?"></textarea>
