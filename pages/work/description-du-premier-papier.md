@@ -11,7 +11,9 @@ category:
   - work
 header: no
 ---
-https://bio-data-tricks.github.io/BioDT/work/description-du-premier-papier.html
+
+
+"/work/description-du-premier-papier.html"
 
 blablablabla
 
