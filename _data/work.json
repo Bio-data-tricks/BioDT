@@ -16,7 +16,7 @@
     "tags": ["spectroscopy"],
     "description": "Méthode de traitement de données spectroscopiques permetant de visualiser l'héterogénéité d'une culture cellulaire.",
     "description_long": "",
-    "thumb": "co2-gni-viz-thumb.jpg",
+    "thumb": "adipocyte immunofluo.jpg",
     "imgs": ["co2-gni-viz.jpg"],
     "tech": ["Data processing", "spectroscopy"],
     "size": "width2 ",
