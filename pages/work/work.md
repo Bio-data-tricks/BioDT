@@ -11,8 +11,9 @@ header: no
 <!-- use isotope.js to create and organize content here -->
 <div id="filters" class="button-group filter-button-group t30">
   <button class="active all" data-filter="*">all</button>
-  <button data-filter=".Machine Learning">machine learning</button>
+  <button data-filter=".Scientific papers">Scientific papers</button>
   <button data-filter=".spectroscopy">spectroscopy</button>
+  <button data-filter=".Machine Learning">machine learning</button>
   <button data-filter=".deep learning">deep learning</button>
   <button data-filter=".Remote sensing">remote sensing</button>  
   <button data-filter=".astrobiology">astrobiology</button>
