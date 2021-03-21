@@ -12,6 +12,16 @@
     "date": "2020-11-01",
     "link": "https://covid19.antievictionmap.com"
   },{
+    "title": "Description du premier papier",
+    "tags": ["spectroscopy"],
+    "description": "Méthode de traitement de données spectroscopiques permetant de visualiser l'héterogénéité d'une culture cellulaire.",
+    "description_long": "",
+    "thumb": "co2-gni-viz-thumb.jpg",
+    "imgs": ["co2-gni-viz.jpg"],
+    "tech": ["Data processing", "spectroscopy"],
+    "size": "width2 ",
+    "date": "2021-03-21"
+  }, {
     "title": "NYC Crash Mapper 2",
     "tags": ["web", "data-viz"],
     "description": "Data exploration tool that allows users to filter, compare, rank, and view trends in vehicle collision data reported by the NYPD.",
