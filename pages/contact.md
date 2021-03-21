@@ -29,10 +29,3 @@ header: no
   <button type="submit">Send</button>
 </form>
 </div>
-
-<sub>
-    Pssst! If you need a fabulous contact form for your website, I suggest you use [Formspree][1].
-</sub>
-
-
- [1]: https://formspree.io/
