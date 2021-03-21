@@ -68,12 +68,12 @@ Download the most recent versions of R and RStudio for your laptop:
 
 **Please install them one-by-one as follows:**
 
-```{r}
-install.packages("tidyverse")
-install.packages("Matrix")
-install.packages("RCurl")
-& so on ...
-```
+
+'install.packages("tidyverse")'
+'install.packages("Matrix")'
+'install.packages("RCurl")'
+'& so on ...'
+
 
 > ** If you have trouble installing `Seurat`, please install `multtest` using the following lines of code, then try installing `Seurat` again:
 >
