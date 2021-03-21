@@ -15,6 +15,7 @@ header: no
   <button data-filter=".Spectroscopy">spectroscopy</button>
   <button data-filter=".Machine Learning">machine learning</button>
   <button data-filter=".Deep Learning">deep learning</button>
+  <button data-filter=".Orange/Python">Orange/Python</button>
   <button data-filter=".Remote sensing">remote sensing</button>  
   <button data-filter=".Astrobiology">astrobiology</button>
   <button data-filter=".Astrophotography">astrophotography</button>
